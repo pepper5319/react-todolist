@@ -42,7 +42,7 @@ class Touchpad extends Component {
     let result = math.eval(eq);
     this.setState({
       sum: result,
-      equation: "0",
+      equation: '0',
     });
   }
 
